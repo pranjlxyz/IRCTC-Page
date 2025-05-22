@@ -1,0 +1,228 @@
+.container{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.header{
+    display: flex;
+}
+.nav{
+    position: relative;
+    margin-top: 63px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500 ;
+}
+.contact , .alerts{
+    padding-left: 18px;
+}
+.login , .register , .agent-login{
+    font-weight: 500;
+    padding: 10px;
+    border: 1.01px #33333333 solid;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.login{
+    border: none;
+    background-color: #FB792B;
+    color: white;
+}
+.register , .agent-login{
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title{
+    margin-left: 100PX;
+    margin-top: 60px
+}
+.headline{
+    font-weight: 700;
+    font-size: 46px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.tagline{
+    font-weight: 500;
+    font-size: 32px;
+    word-spacing: 10px;
+}
+.safety{
+    color: #01BB0A;
+}
+.security{
+    color: #FB792B;
+}
+.punctuality{
+    color: #213D77;
+}
+.indian-railways{
+    padding-left: 20px;
+}
+.vector-buttons{
+    border-color: #33333380;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.blue{
+    font-weight: 700;
+    color: white;
+    background-color: #213D77;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+}
+.default-one{
+    font-weight: 700;
+    background-color: white;
+    border: 1.01px #33333333 solid;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.default-two{
+    font-weight: 700;
+    background-color: white;
+    border: 1.01px #33333333 solid;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.book , .pnr , .vacancy{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 15px;
+    font-size: 18.25px;
+}
+.tick-mark , .chart , .ticket{
+    width: 25px;
+    padding-left: 15px;
+}
+.destination , .requirements{
+    display: flex;
+    margin-left: 100px;
+    border: 1px #3333331A solid;
+    width: 620px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.enter , .exit , .calander , .class-png , .seat-png{
+    margin-right: 5px;
+}
+.des-mid {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.des-left , .req-left , .des-right , .req-right , .req-mid{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.des-right , .req-right{
+    margin-right: 60px;
+}
+.des-left , .req-left{
+    margin-left: 21px;
+}
+.from , .to , .date , .class , .seat-type , .ksr , .ksd , .day , .tier{
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.8;
+    margin: 0;
+    margin-left: 40px;
+}
+.bangalore , .kasaragod , .ddmmyy , .three-a , .tatkal{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.down-arrow{
+    width: 10px;
+}
+.two-way-arrow{
+    border: 1px #3333331A solid;
+    border-radius: 50px;
+    width: 24px;
+    padding: 10px;
+}
+.calander{
+    width: 32px;
+}
+.des-right{
+    margin-right: 90px;
+}
+.des-mid{
+    margin-left: 50px;
+}
+.seat-type , .tier , .class{
+    margin-right: 20px;
+}
+.tatkal{
+    margin-left: 5px;
+}
+.destination{
+    margin-top: 50px;
+}
+.requirements{
+    margin-top: 20px;
+}
+.rail-cover-container{
+    display: flex;
+}
+.rail-cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1100px;
+    width: 696px;
+}
+.main-button{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.green{
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    background-color: #01BB0A;
+    border: none;
+    border-radius: 10px;
+    padding-left: 205px;
+    padding-right: 205px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.go-arrow{
+    width: 30px;
+    margin-left: 10px;
+}
+button :hover , .buttons :hover , .main-button :hover{
+    cursor: pointer;
+}
